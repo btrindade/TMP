@@ -1,0 +1,645 @@
+body{background: #d6dfed !important}
+.left{float: left !important}
+.right{float: right !important}
+.wrapper{width: 947px !important}
+.clear{clear: both}
+#topo-mascara{height: 140px}
+#topo{background: url(../img/novo/bg-header.png) repeat-x; padding-top: 15px}
+#topo .wrapper{position: relative}
+#logo a{display: block; width: 101px; height: 31px; background: url(../img/novo/logo-clickon.png) no-repeat; text-indent: -10000px; float: left}
+#busca-topo{float: left; margin-left: 20px}
+#busca-topo .campo-busca{float: left; width: 216px; background: #fff; border-radius: 20px 0 0 20px}
+#busca-topo .campo-busca input[type=text]{margin: 6px 0 0 17px; font-size: 13px; width: 150px; border:none; outline: none}
+#busca-topo input[type=submit]{width: 35px; height: 26px; background: url(../img/novo/bt-busca-topo.png) no-repeat; border: none; text-indent: -100000px; float: right; margin: 3px 2px 3px 5px}
+#busca-topo .categorias-busca{float: left; display: block; width: 130px; height: 32px; background: url(../img/novo/categorias-busca.png) no-repeat; font-family: 'arial'; text-decoration: none; color: #4e4e4e; font-size: 13px; font-weight: bold; line-height: 32px; padding-left: 40px}
+
+#login{float: right}
+#login p{color:#fff; font-family: 'arial'; font-size: 12px; float: left; padding-top: 7px; margin-right: 10px}
+#login a{display: block; padding: 6px 10px; border:solid 1px #747785; float: left; border-radius: 3px; text-align: center; color: #fff; text-decoration: none; font-family: 'arial'; font-size: 11px; margin-left: 5px}
+#login .bt-login{background: #499af0; border: solid 1px #499af0}
+#login .bt-login:hover{background: #4693e4; border: solid 1px #4693e4}
+
+#menu{clear: both; padding-top: 14px; position: relative}
+#menu ul li{float: left;}
+#menu ul li:first-child a{background: none; margin-left: 120px}
+#menu ul li a{display: block; color:#fff; font-size: 14px; color: #fff; text-decoration: none; font-family: arial; font-weight: bold; color:#dee5f1; padding: 8px 30px; background: url(../img/novo/separador-menu.png) no-repeat left}
+#menu ul li.sub:hover a{margin-bottom: 40px}
+#menu ul li:hover a{display: inline-block; background: #eef4fc; position: relative; right:0; top: -3px; padding: 10px 30px 10px 30px; color:#353c58; border-radius: 5px 5px 0 0}
+#menu .telefone{font-family: 'arial'; font-size: 11px; color: #fff; padding: 7px 0 4px 23px; background: url(../img/novo/ico-telefone.png) no-repeat left; float: right; margin: 3px 0 0 0}
+
+#menu ul li:hover .subnav{display: block}
+#menu .subnav{position: absolute; top: 50px;  left: 0; display: none}
+#menu .subnav li:first-child a{margin: 0}
+#menu .subnav li a{padding: 8px 25px !important}
+#menu .subnav li a{background: none !important; font-weight: normal}
+#menu .subnav li a:hover{font-weight: bold}
+
+::-webkit-input-placeholder {color: #353c58}
+:-moz-placeholder {color: #353c58}
+::-moz-placeholder {color: #353c58}
+:-ms-input-placeholder {color: #353c58}
+
+.opcoes-cidades{display:none; background: #fff; position: absolute; padding: 20px; border-radius: 5px; -moz-box-shadow: 0 0 8px #aeb2bf; -webkit-box-shadow: 0 0 8px #aeb2bf; box-shadow: 0 0 8px #aeb2bf; position: absolute; left: 300px; top: 50px; z-index: 2}
+.opcoes-cidades .seta{display: block; position: absolute; width: 14px; height: 9px; background: url(../img/novo/seta-up.png) no-repeat; top: -9px; left:55px}
+.opcoes-cidades h2{color:#353c58; font-weight: bold; font-family: 'arial'; font-size: 20px}
+.opcoes-cidades ul{float: left; padding-right:30px; margin-right: 30px; border-right: solid 1px #b6becc; margin-top: 20px}
+.opcoes-cidades ul li a{color:#353c58; font-size: 13px; text-decoration: none; font-family: 'arial'; padding: 10px 5px; display: block}
+.opcoes-cidades ul li a:hover{background: #499af0; padding: 10px 5px; color:#fff; border-radius: 5px}
+
+#rodape #banner-google{background: #373a48; clear: both; padding: 20px 0; margin-bottom: 20px}
+#rodape #banner-google a{display: block; width: 721px; height: 84px; border: solid 1px #474954; margin: 0 auto}
+#rodape{background: #2c2e38; padding-bottom: 30px}
+#rodape .opcoes-rodape{color:#fff; font-family: 'arial'; font-weight: bold; font-size: 14px; padding: 10px 40px 10px 10px; border: solid 1px #373a48; background: url(../img/novo/seta-up2.png) no-repeat right; text-decoration: none; float: left}
+#rodape .sociais{float: right}
+#rodape .sociais a{display: block; width: 41px; height: 41px; background: url(../img/novo/sociais.png) no-repeat; float: left; margin-left: 10px}
+#rodape .sociais .facebook{background-position: 0 0}
+#rodape .sociais .facebook:hover{background-position: 0 -41px}
+#rodape .sociais .twitter{background-position: -50px 0}
+#rodape .sociais .twitter:hover{background-position: -50px -41px}
+#rodape .sociais .google{background-position: -100px 0}
+#rodape .sociais .google:hover{background-position: -100px -41px}
+#rodape .miolo{clear: both; margin-top: 20px; border-top: solid 1px #373a48; width: 100%}
+#rodape .miolo .facebox{background: #fff; width: 344px; height: 97px; float: left; margin-top: 20px}
+#rodape .miolo .mapa-site{float: left; margin-left: 50px}
+#rodape .miolo ul{float: left; border-left: solid 1px #373a48;padding-left: 20px; padding-top: 20px; margin-right: 30px}
+#rodape .miolo li{font-family: 'arial'; color:#fff; font-weight: bold; font-size: 14px; margin-bottom:7px}
+#rodape .miolo li:first-child{margin-bottom: 10px}
+#rodape .miolo li a{font-family: 'arial'; color:#fff; font-size: 12px; text-decoration: none; font-weight: normal; color:#5a5e72; display: block}
+#rodape .miolo li a:hover{color:#75798b}
+#rodape .ajuda{float: right}
+#rodape .ajuda a{display: block;  width: 166px;  font-family: 'arial'; font-size: 14px; color: #fff; font-weight: bold; border-radius: 5px;  padding: 15px 10px 15px 50px; text-decoration: none; border: solid 1px #373a48; margin-top: 20px;}
+#rodape .ajuda .duvidas{background: url(../img/novo/ico-duvida.png) no-repeat 10px}
+#rodape .ajuda .interrogacao{background: url(../img/novo/ico-interrogacao.png) no-repeat 10px}
+.compra-segura{clear: both; color: #fff; font-family: 'arial'; font-weight: bold; font-size: 13px}
+.compra-segura span{float: left; display: block; padding: 5px 0 5px 30px; background: url(../img/novo/ico-cadeado.png) no-repeat left}
+.compra-segura p{float: left; display: block; padding: 5px 0 5px 15px; background: url(../img/novo/bullet-cinza.png) no-repeat left; margin-left: 20px}
+.mercado-pago{clear: both;margin-top: 30px; float: left}
+#rodape .copy{float: right; clear: both; color:#5a5e72; font-family: 'arial'; font-size: 10px; margin-top: -20px}
+
+#conteudo, .conteudo{margin-bottom: 25px}
+#conteudo .blocos article{background: #fff; padding: 20px; border: solid 1px #b6c7dc; border-radius: 3px}
+#conteudo .blocos article h1{color:#282d46; font-size: 18px; font-weight: bold; font-family: 'arial'; margin-bottom: 15px}
+#conteudo .blocos article .componente{border: solid 1px #b6c7dc; padding: 15px; border-radius: 5px}
+#conteudo .blocos article .componente .destaque{border-radius: 5px; float: left; margin-right: 30px}
+#conteudo .blocos article .componente h2{color:#282d46; font-size: 23px; font-weight: bold; font-family: 'arial'; margin-bottom: 20px; line-height: 25px}
+
+#conteudo .blocos article .componente .infos{float: left; width: 357px}
+#conteudo .blocos article .componente .valores{float: left; width: 237px}
+#conteudo .blocos article .componente .bt-verde{margin-top: 24px}
+
+#conteudo .itens span{display: block; float: left; font-family: 'arial'; font-size: 12px; color:#2a2c38; padding: 5px 0 5px 25px; margin-right: 15px}
+#conteudo .itens .aereo{background: url(../img/novo/ico-aereo.png) no-repeat left}
+#conteudo .itens .cafe{background: url(../img/novo/ico-cafe.png) no-repeat left}
+#conteudo .off-descricao span{display: block; padding:12px 9px; border-radius: 100px; color:#fff; font-family: 'arial'; font-size: 20px; text-align: center; background: #3b85ec; float: left; font-weight: bold; margin-right: 20px}
+#conteudo .off-descricao span small{font-size: 13px; color:#fff !important; display: block}
+#conteudo .off-descricao p{font-size: 12px; color:#2a2c38 !important; font-family: 'arial'; padding: 12px; line-height: 18px}
+#conteudo .valores ins{font-size: 30px; color:#000; font-family: 'arial'; font-weight: bold; text-decoration: none; margin-top: 20px; float: left; width: 400px; margin-bottom: 5px;}
+#conteudo .valores del{float: left; font-family: 'arial'; font-size: 14px; color: #2a2c38; text-decoration: none; line-height: 18px}
+#conteudo .valores span{display: block;float: left; font-family: 'arial'; font-size: 14px; color: #2a2c38}
+
+#pacotes .promocoes{padding: 50px 0 20px 0; clear: both}
+#pacotes #relacionadas figure{margin-left: 19px}
+
+#pacotes {margin-top: 20px}
+#pacotes h2{font-family: 'arial'; font-weight: bold; font-size: 18px; color:#3262dd; margin-bottom: 20px; float: left}
+#pacotes .ver-mais{float: right; padding: 8px 10px; border:solid 1px #3262dd; font-size: 13px; font-weight: bold; color: #3262dd; font-family: 'arial'; text-decoration: none; border-radius: 4px}
+#pacotes .componente{clear: both}
+#pacotes .componente.meio{clear: both; background: #f6f6f6; width: 565px; float: left; margin-top: 20px}
+#pacotes .componente.meio img{width: 296px; margin-right: 20px !important}
+#conteudo .blocos article .componente.meio .infos{width: 248px}
+#pacotes #relacionadas{margin-top: 10px}
+#pacotes #relacionadas figure a h3{margin-bottom: 10px}
+#pacotes .promocoes.especiais .componente{clear: none; float: right}
+#pacotes .promocoes.especiais .componente h2{padding: 0}
+#pacotes .promocoes.especiais #relacionadas figure h3{margin-bottom: 25px}
+#pacotes .promocoes.especiais #relacionadas figure img{margin-bottom: 17px}
+#pacotes .promocoes.especiais .paginacao{margin-top: 40px; clear: both}
+
+
+
+.box-vantagens{width: 257px; float: right; background: #282828; border-radius: 3px; padding: 15px; border:solid 1px #d6dfed;}
+.box-vantagens .infos{background: #fff; border-radius: 3px; position: relative}
+.box-vantagens .infos .seta-vantagens{display: block; width: 26px; height: 30px; background: url(../img/novo/seta-vantagens.png) no-repeat; position: absolute; right: 10px; bottom:-15px}
+
+.box-vantagens .infos h3{padding: 10px; border-bottom:solid 1px #d6dfed; font-size: 16px; font-weight:bold; color: #373737; font-family: 'arial'}
+.box-vantagens .pessoal{padding: 16px 10px 10px 10px; float: left; font-family: 'arial'; font-size: 13px}
+.box-vantagens .pessoal p{padding-bottom: 7px}
+.box-vantagens .off-descricao{float: right; margin-top: 10px}
+.box-vantagens .inclusos{clear: both; padding: 10px; font-family: 'arial'; font-size: 13px; margin: 5px 0 17px 0}
+.box-vantagens .inclusos p{float: left; width: 91px; padding:3px 0 3px 25px; background: url(../img/novo/icones-opcionais.png) no-repeat left; margin-bottom: 10px}
+.box-vantagens .valores{color:#fff}
+.box-vantagens .valores ins{color:#fff !important; width: auto !important; font-size: 18px !important; margin-bottom: 0 !important}
+.box-vantagens .valores del{color:#fff !important; display: block; clear: both; font-size: 11px !important; line-height: 12px !important}
+.box-vantagens .bt-verde{margin-top: -18px}
+
+.box-vantagens .inclusos .noites{background-position: -6px 2px}
+.box-vantagens .inclusos .lazer{background-position: -3px -71px}
+.box-vantagens .inclusos .aereo{background-position: -6px -20px}
+.box-vantagens .inclusos .premio{background-position: -4px -95px}
+.box-vantagens .inclusos .inclusive{background-position: -4px -46px}
+
+.bt-verde{display: block !important; float: right; background: url(../img/novo/bg-botao.png) repeat-x !important; padding: 13px 20px !important; border: solid 1px #4e820b !important; border-radius: 3px !important; font-family: 'arial black' !important; color:#fff !important; text-decoration: none !important; text-shadow:1px 1px 0px #2c7112 !important; font-size: 17px !important}
+.bt-verde:hover{background: #4fa32f !important}
+
+.carrinho{height: auto !important; margin-bottom: 25px}
+.carrinho #topo{height: 46px !important}
+.carrinho #topo #login a{border: none; font-size: 13px}
+.carrinho #topo #login a:hover, .carrinho #topo #login a.ativo{color:#d0d3e0}
+
+.carrinho h1{font-weight: normal !important}
+
+
+.chosen-container .chosen-single{height: 36px !important; background: #fff !important; box-shadow: none !important; border: solid 1px #c0cad9 !important}
+.chosen-container-single .chosen-single span{border-right: solid 1px #c0cad9; height: 36px; margin-right: 40px !important; line-height: 33px; color:#69729e; font-size: 12px}
+.chosen-container-single .chosen-single div{width: 13px !important; right: 12px !important; top: 7px !important}
+.chosen-container-single .chosen-search{display: none}
+.chosen-container .chosen-results li{font-family: 'arial'; font-size: 12px; color:#69729e}
+.chosen-container .chosen-drop{border: solid 1px #c0cad9 !important; box-shadow: none !important; padding:5px 0 0 0 }
+
+.carrinho .componente{padding: 0 !important}
+.carrinho .componente .row{border-bottom: solid 1px #b3c5db;}
+.carrinho .componente .total{padding: 20px}
+.carrinho .componente .img-produto-carrinho{float: left; margin:20px 30px 20px 20px}
+.carrinho .componente .descricao{float: left; width: 363px; border-right:solid 1px #b3c5db; padding: 20px; height: 77px}
+.carrinho .componente .descricao p{font-family: 'arial'; font-size: 12px; line-height: 15px}
+.carrinho .componente .descricao a{font-family: 'arial'; font-size: 12px; color:#69729e}
+.carrinho .componente .descricao .regulamento{margin-top: 36px; float: left;}
+.carrinho .componente .descricao .chosen-container{margin-top: 13px; float: left; width: 252px !important; margin-right: 35px}
+
+.carrinho .componente .quantidade {padding:20px; float: left; border-right: solid 1px #b3c5db; height: 77px}
+.carrinho .componente .quantidade p{font-family: 'arial'; font-size: 12px}
+.carrinho .componente .quantidade .chosen-container{margin-top: 13px; float: left; width: 82px !important;}
+
+.carrinho .componente .precos {padding:20px; float: left; height: 37px; width: 165px; padding-top: 20px}
+.carrinho .componente .precos .credito{color:#4079e4}
+.carrinho .componente .precos p{font-family: 'arial'; font-size: 12px; text-align: right; margin-bottom: 10px}
+.carrinho .componente .precos p span{display: block; float: left}
+.carrinho .componente .total label{clear: both; display: block; font-family: 'arial'; font-size: 12px; margin: 0 0 3px 0; float: left}
+.carrinho .componente .total label input{margin-right: 5px}
+.carrinho .componente .total .total-geral{float: right; margin-top: -10px; color: #282d46; font-family: 'arial'; font-weight: bold}
+.carrinho .componente .total .total-geral span{padding-left: 130px}
+
+.carrinho #regalar{margin: 5px 0 0 10px;display: block; clear: both; float: left; display: none}
+.carrinho #regalar input{margin-left: 10px; height: 23px; border:solid 1px #ccd4df; border-radius: 4px; padding-left: 10px; margin-right: -5px; outline: none}
+
+.carrinho #codigo-promo{margin: -5px 0 0 0;display: none}
+.carrinho #codigo-promo input[type=text]{margin-left: 10px; height: 23px; border:solid 1px #ccd4df; border-radius: 4px 0 0 4px; padding-left: 10px; margin-right: -5px; outline: none}
+.carrinho #codigo-promo input[type=image]{margin-bottom: -9px}
+
+.identificacao{padding-top: 20px}
+.identificacao .esquerda{width: 391px; padding: 0 20px; float: left}
+.identificacao .direita{width: 430px; float: right; border-left: solid 1px #b3c4da; padding-left: 43px}
+.identificacao h2{font-size: 20px; font-weight: bold; color: #282d46; font-family: 'arial'; margin-bottom: 20px}
+.identificacao h2 span{color:#ff0000; font-weight: normal; font-size: 12px; float: right; padding-top: 5px}
+
+.identificacao .esqueci-senha{float: left; color:#292e47; font-family: 'arial'; font-size: 13px; margin:10px 0 20px 60px}
+.identificacao .fieldbox {margin-bottom: 10px; clear: both}
+.identificacao .fieldbox.metade {width: 200px !important; float: left !important; clear: none; padding:0 !important; border:none  !important}
+.identificacao .fieldbox.metade label{line-height: 15px !important; float: left}
+.identificacao .fieldbox input{width: 335px}
+.identificacao .bt-submit{clear: both; margin: 20px auto 0 auto; float: none !important}
+
+.identificacao .cadastro .metade input{width: 103px !important}
+.identificacao .cadastro .chosen-container{float: left; width: 82px !important; font-family: 'arial'}
+.identificacao .cadastro .nome-campo{width: 200px !important; padding-left: 0 !important; border:none !important}
+.identificacao .cadastro .nome-campo label{padding-right: 10px;}
+.identificacao .cadastro .nome-campo input{width: 154px}
+.identificacao .cadastro .titulo-campo{width: 145px}
+.identificacao .cadastro .aceitar-termos{width: 100%; margin: 20px 0}
+.identificacao .cadastro .aceitar-termos input{height: auto; margin-right: 10px}
+.identificacao .ou{font-family: 'arial'; font-size: 14px; text-align: center; margin-top: 20px}
+.identificacao .bt-facebook{width: 240px; display: block; margin: 20px auto}
+.identificacao .compra-segura{color:#424657; margin-left: 202px}
+.identificacao .mercado-pago{margin-top: 10px; margin-left: 202px}
+
+.form-padrao label{float: left; font-family: 'arial'; font-size: 12px; line-height: 35px; width: 60px}
+.form-padrao input{border: solid 1px #c0cad9; height: 36px; border-radius: 5px; padding: 0 15px}
+
+.bt-submit{display: block !important; float: right !important; background: url(../img/novo/bg-botao.png) repeat-x  !important; padding: 0 10px  !important; border: solid 1px #4e820b !important; border-radius: 3px !important; font-family: 'arial black' !important; color:#fff !important; text-decoration: none  !important; text-shadow:1px 1px 0px #2c7112 !important; height: 45px !important}
+.bt-submit:hover{background: #4fa32f !important}
+
+
+.texto-boas-vindas{font-family: 'arial'; font-size: 20px; font-weight: bold; color: #353c59;}
+.texto-boas-vindas span{color: #417be6}
+
+.logado .compra-segura{margin-left: 300px; margin-bottom: 30px}
+.logado .texto-boas-vindas{margin-bottom: 40px}
+.logado .bt-verde{margin: 70px auto; float: none; width: 179px;}
+
+.termos-politicas{clear: both; text-align: center; padding-top: 40px}
+.termos-politicas a:first-child{padding: 0; border: none}
+.termos-politicas a{color: #3262dd; font-size: 12px; font-family: 'arial'; text-decoration: none; border-left: solid 1px #3262dd; padding-left: 10px; margin-right: 5px}
+.termos-politicas a:hover{text-decoration: underline}
+
+.carrinho #login a{position: relative}
+.carrinho .tip{position: absolute; right: 0; top: 40px; padding: 15px; background: #fff; text-align: left; color:#000; line-height: 20px; width: 210px; border-radius: 3px;
+    -moz-box-shadow: 0 0 8px #b4b4b4;
+    -webkit-box-shadow: 0 0 8px #b4b4b4;
+    box-shadow:  0 0 8px #b4b4b4;
+}
+.carrinho .tip span{display: block; width: 11px; height: 7px; background: url(../img/novo/seta-up3.png) no-repeat; position: absolute; right: 15px; top: -7px}
+
+.aproveite-tambem{width: 100%; height: 70px; background: url(../img/novo/bg-upselling.png) bottom repeat-x; border-top: solid 1px #b3c5db}
+.aproveite-tambem h3{float: left; padding: 28px 20px 0 20px; color:#3262dd; font-family: 'arial'; font-weight: bold}
+.aproveite-tambem .info-pacote{float: left; margin-top: 9px}
+.aproveite-tambem .info-pacote img{width: 82px; float: left; margin-right: 10px}
+.aproveite-tambem .info-pacote p{font-family: 'arial'; font-size: 12px; line-height: 15px}
+.aproveite-tambem .info-pacote .regulamento{font-family: 'arial'; font-size: 12px; color: #69729e; padding-top: 10px; display: block}
+.aproveite-tambem .preco{float: right; font-family: 'arial'; font-size: 13px; color: #3262dd; margin: 30px 40px 0 0}
+.aproveite-tambem .preco span{display: block; padding-right: 15px; float: left}
+.bt-azul{float: right; display: block; background: #3262dd; padding: 8px 10px; color:#fff; text-decoration: none; font-family: 'arial'; font-size: 12px; border-radius: 5px; margin: 20px}
+.bt-azul:hover{background: #305dd2}
+
+#modal-esqueci-senha{width: 420px}
+#modal-esqueci-senha h2{margin: 0}
+#modal-esqueci-senha article{border:none !important; padding: 20px}
+#modal-esqueci-senha header{border-bottom: solid 1px #c3c9d5; padding: 20px 20px}
+#modal-esqueci-senha header h2{font-size: 20px; font-weight: bold; color: #282d46; font-family: 'arial'}
+#modal-esqueci-senha article p{font-family: 'arial'; font-size: 12px}
+#modal-esqueci-senha article label{font-family: 'arial'; font-size: 12px; display: block; margin: 20px 0 10px 0}
+#modal-esqueci-senha article input[type=email]{width: 303px; margin-left: 10px; border:solid 1px #ccd4df; padding: 10px; border-radius: 5px}
+#modal-esqueci-senha .bt-verde{line-height: 0 !important; padding: 21px 10px !important; margin: 40px auto 20px auto}
+
+#modal-termos{width: 590px}
+#modal-termos h2{margin: 0; float: left}
+#modal-termos article{border:none !important; padding: 20px}
+#modal-termos header{border-bottom: solid 1px #c3c9d5; padding: 20px 20px}
+#modal-termos header h2{font-size: 20px; font-weight: bold; color: #282d46; font-family: 'arial'}
+#modal-termos article p{font-family: 'arial'; font-size: 12px}
+#modal-termos .bt-azul{float: right; margin: 0 0 0 10px}
+#modal-termos #scroll{ overflow-x: scroll; height: 400px}
+#modal-termos p{line-height: 15px}
+
+
+#modal-regras{width: 420px}
+#modal-regras h2{margin: 0; float: left}
+#modal-regras article{border:none !important; padding: 20px}
+#modal-regras header{border-bottom: solid 1px #c3c9d5; padding: 20px 20px;}
+#modal-regras header a{margin-bottom: 0}
+#modal-regras header h2{font-size: 20px; font-weight: bold; color: #282d46; font-family: 'arial'}
+#modal-regras header p{display: block; clear: both; font-family: 'arial'; margin-top: 10px; float: left; width: 274px; font-size: 12px}
+#modal-regras article p{font-family: 'arial'; font-size: 12px}
+#modal-regras #scroll{ overflow-x: scroll; height: 400px}
+#modal-regras p{line-height: 15px}
+
+#detalhe-oferta{width: 678px; float: left; padding: 0 !important}
+#detalhe-oferta header{float: left; padding: 20px}
+#detalhe-oferta header p{font-family: 'arial'; font-size: 11px}
+#detalhe-oferta header h1{font-family: 'arial'; font-size: 29px !important; margin-top: 20px; line-height: 35px}
+
+.col01{width: 470px; float: left; position: relative}
+.galeria{width: 100%; position: relative; margin-bottom: 20px}
+.galeria .off-descricao{position: absolute; top:198px; left: 13px}
+.galeria .off-descricao span{padding: 15px 11px !important; font-size: 26px !important}
+.galeria .off-descricao small{font-size: 17px !important}
+.galeria .carrossel{width: 392px; height: 65px; position: relative; float: left; overflow: hidden}
+.galeria .carrossel ul{width: 999999px; height: 65px; position: absolute}
+.galeria .carrossel ul li{float: left; margin:0 1px}
+.galeria .esquerda{display: block; height: 65px; width: 39px; float: left; background: url(../img/novo/bt-anterior.png) right no-repeat #353d58; float: left; position: relative}
+.galeria .direita{display: block; height: 65px; width: 38px; float: left; background: url(../img/novo/bt-proximo.png) left no-repeat #353d58; position: relative}
+
+
+.scroll{height: 150px; overflow: hidden}
+.scroll .sombra{width: 100%; height: 56px; position: absolute; bottom: 18px; left: 0; background: url(../img/novo/bg-scroll.png) repeat-x}
+.detalhes{padding-top: 20px; float: left; width: 195px; padding: 20px; position: relative}
+.detalhes h3{font-family: 'arial'; font-size: 18px; font-weight: bold; color:#282d46; padding-bottom: 20px}
+.detalhes li{font-family: 'arial'; font-size: 12px; color:#393939; line-height: 17px; padding-left: 15px; background: url(../img/novo/bullet-cinza2.png) no-repeat left 6px}
+
+#outras-ofertas{width: 243px; float: right} 
+
+
+#scrollDown{position: absolute; bottom: 0; z-index: 2; width: 230px; height: 30px; background: url(../img/novo/seta-down.png) no-repeat center}
+.condiciones{position: absolute; bottom: 0; right: 0; z-index: 2; width: 230px; height: 30px; background: url(../img/novo/seta-down.png) no-repeat center}
+
+
+.col02{width: 205px; float: left; position: relative; border-left: solid 1px #d6dfed}
+.col02{padding-top: 216px}
+
+.col02 #comprar{width: 238px; height: 229px; background: url(../img/novo/bg-comprar.png) no-repeat; position: absolute; right: -19px; top: 0}
+.col02 #comprar .preco{font-size: 36px; color: #fff; font-weight: bold; font-family: 'arial black'; text-align: center; padding: 30px 0; 
+
+
+
+}
+.col02 #comprar .bt-verde{height: 66px; width: 192px; padding: 0 !important; text-align: center; margin: 0 auto;float: none; background: url(../img/novo/bg-botao-grande.png) top repeat-x #449a24 !important; line-height: 66px; font-size: 30px !important}
+.col02 #comprar .bt-verde:hover{background: #449a24 !important}
+.col02 #comprar .depara {padding: 15px; text-align: center}
+.col02 #comprar .depara span:first-child{border: none}
+.col02 #comprar .depara span{display: inline-block; color:#d6dfed; font-family: 'arial'; font-size: 16px; padding: 0 15px; border-left: solid 1px #484f70}
+
+
+#contagem{padding: 20px 0 20px 65px; background: url(../img/novo/ico-relogio.png) no-repeat 20px; font-size: 24px; font-weight: bold; color:#282d46; font-family: 'arial'; border-bottom: solid 1px #d6dfed}
+#contagem p span:first-child{display: none}
+
+#status{padding: 20px; text-align: center}
+#status p{font-family: 'arial'; font-size: 19px; font-weight: bold; color: #282d46; padding-bottom: 5px}
+#status span{font-family: 'arial'; font-size: 16px; font-weight: bold; color: #282d46}
+#status .barra{width: 147px; height: 19px; margin: 20px auto; border: solid 1px #d6dfed; border-radius: 3px}
+#status .ativa{background: #3b85ec}
+
+#recomendar{padding:20px}
+#recomendar p{font-family: 'arial'; font-weight: bold; font-size: 13px; color: #282d46; text-align: left; padding-bottom: 15px}
+#recomendar a{display: block; background: url(../img/novo/icones-sociais.png) left bottom no-repeat; padding:4px 0 4px 29px; font-family: 'arial'; font-size: 12px; color: #676767; text-decoration: none; margin-bottom: 6px}
+#recomendar a.facebook{background-position: 0 0}
+#recomendar a.twitter{background-position:  0 -27px}
+#recomendar a.google{background-position: 0 -54px}
+#recomendar a.email{background-position: 0 -81px}
+
+#mapa{margin: 20px 0; clear: both; padding: 20px; border-top:solid 1px #d6dfed; border-bottom:solid 1px #d6dfed}
+#mapa .textos{float: left}
+#mapa p{font-size: 13px; font-family: 'arial'; color:#273158}
+#mapa span{font-size: 11px; font-family: 'arial'; color:#273158; padding: 5px 0; display: block}
+#mapa a{font-size: 12px; font-family: 'arial'; color:#3b85ec; text-decoration: none; display: block; clear: both}
+#mapa a:hover{text-decoration: underline !important}
+
+#geolocal{width: 457px; height: 105px; float: right}
+
+#descricao-oferta{padding: 20px}
+#descricao-oferta h2{font-family: 'Georgia'; font-size: 17px; color:#363636; font-weight: bold; font-style: italic; width: 550px; margin: 0 auto; text-align: center; margin-bottom: 50px; line-height: 20px}
+#descricao-oferta p{font-family:'arial'; color:#363636; font-size: 12px; line-height: 20px}
+
+#outras-ofertas article{padding: 0 !important; position: relative}
+#outras-ofertas article h2{font-family: 'arial'; font-size: 18px; font-weight: bold; color: #282d46;  padding:20px 10px}
+#outras-ofertas article .off-descricao{position: absolute; right:-8px; top:65px}
+#outras-ofertas article .descricao{font-family: 'arial'; font-size: 14px; color: #373737; padding: 10px; line-height: 20px}
+#outras-ofertas article .precos-desconto{border-top:solid 1px #d6dfed}
+#outras-ofertas article .grupo-preco{float: left; padding: 10px; border-right:solid 1px #d6dfed}
+#outras-ofertas article .bt-verde{padding:6px 5px !important; margin: 15px 18px 0 0}
+.grupo-preco .por{font-family: 'arial' !important; font-weight: bold !important; font-size: 14px !important; color: #000 !important;}
+.grupo-preco .de{font-family: 'arial' !important; font-size: 11px !important; color: #353535 !important; padding-top: 3px !important; font-weight: normal !important}
+
+#mais-ofertas {margin-top: 10px}
+#mais-ofertas article{padding: 0 !important; position: relative}
+#mais-ofertas article h2{font-family: 'arial'; font-size: 18px; font-weight: bold; color: #282d46; padding:20px 10px}
+#mais-ofertas article article{border: none !important}
+#mais-ofertas article article p{font-family: 'arial'; font-size: 12px; color: #363636; font-weight: bold}
+#mais-ofertas article article .padding{padding:10px}
+#mais-ofertas article article .precos-desconto{border: none}
+#mais-ofertas article article img{float: left; margin-top: 15px}
+#mais-ofertas article article .grupo-preco{float: right; border:none; padding: 15px 0px 0 8px}
+#mais-ofertas article article .bt-verde{clear: both; margin: 0; font-family: arial !important; font-size: 13px !important; padding: 3px 21px !important; margin-top: -20px}
+#mais-ofertas article article{padding-bottom: 20px !important; margin-top: 10px; border-bottom: solid 1px #d6dfed !important}
+#mais-ofertas article .bt-azul{padding:12px 54px; background: #3b85ec}
+#mais-ofertas article .bt-azul:hover{background: #377ee0}
+#outras-ofertas .banner{margin-top: 10px; display: block}
+
+#relacionadas{margin: 20px 0; padding: 0 !important; background: none !important; border:none !important}
+#relacionadas h2{font-family: 'arial'; font-size: 20px; color:#2a2c38; font-weight: bold; padding:20px 0}
+#relacionadas h2 span{color:#3b85ec}
+#relacionadas figure.first{margin: 0 !important}
+#relacionadas figure{width: 257px; float: left; background: #f6f6f6; padding: 15px; border: solid 1px #b6c7dc; border-radius: 3px; margin-left: 40px}
+#relacionadas figure img{width: 257px}
+#relacionadas figure a{text-decoration: none}
+#relacionadas figure a h3{font-family: 'arial'; font-weight: bold; color: #2a2c38; line-height: 17px; font-size: 14px; margin-bottom: 20px}
+#relacionadas figure .grupo-preco{float: left; margin-top: 10px}
+#relacionadas figure .bt-verde{float: right; margin: 10px 0 0 0 }
+#relacionadas .ver-mais-ofertas{display: block; width: 206px; margin:0 auto; text-align: center; clear: both; height: 38px; line-height: 38px; background: #3b85ec; color: #fff; text-decoration: none; font-family: 'arial'; font-size: 16px; border-radius: 5px; margin: 20px auto}
+#relacionadas .ver-mais-ofertas:hover{background: #377ee0}
+
+#vantagens{margin: 20px 0; padding: 0 !important; background: none !important; border:none !important; float:right}
+#vantagens h2{font-family: 'arial'; font-size: 20px; color:#2a2c38; font-weight: bold; padding:20px 0}
+#vantagens h2 span{color:#3b85ec}
+#vantagens figure.first{margin: 0 !important}
+#vantagens figure{width: 257px; float: left; background: #f6f6f6; padding: 15px; border: solid 1px #b6c7dc; border-radius: 3px; margin-left: 40px}
+#vantagens figure img{width: 257px}
+#vantagens figure a{text-decoration: none}
+#vantagens figure a h3{font-family: 'arial'; font-weight: bold; color: #2a2c38; line-height: 17px; font-size: 14px; margin-bottom: 20px}
+#vantagens figure .grupo-preco{float: left; margin-top: 10px}
+#vantagens figure .bt-verde{float: right; margin: 10px 0 0 0 }
+#vantagens .ver-mais-ofertas{display: block; width: 206px; margin:0 auto; text-align: center; clear: both; height: 38px; line-height: 38px; background: #3b85ec; color: #fff; text-decoration: none; font-family: 'arial'; font-size: 16px; border-radius: 5px; margin: 20px auto}
+#vantagens .ver-mais-ofertas:hover{background: #377ee0}
+
+#termos{width: 100%; padding: 20px 0; border-top:solid 1px #c1c1c1}
+#termos .textos{width: 610px; float: left}
+#termos .textos strong{font-family: 'arial'; font-size:12px; color:#5e5e5e; font-weight: bold; padding-bottom: 2px; display: block}
+#termos .textos p{font-family: 'arial'; font-size:12px; color:#5e5e5e; line-height: 15px}
+#termos #banner{float: right; margin-top: 20px}
+
+
+.politica-cancelamento{font-size: 14px; color:#282d46; font-weight: bold; font-family: 'arial'; text-decoration: none; padding: 12px; display: block; text-align: center}
+.qtd-pacotes{font-size: 19px; color:#3b85ec; font-weight: bold; font-family: 'arial'; padding: 12px; display: block; text-align: center; border-top: solid 1px #b3c5db; border-bottom: solid 1px #b3c5db}
+.selos p{font-family: 'Georgia'; color: #363636; font-size: 17px; font-style: italic; font-weight: bold; padding: 0 20px 0 93px; height: 50px; padding-top: 20px; background: url(../img/novo/selos.png) no-repeat left; margin-top: 10px}
+.selos .campeao{background-position: 15px 5px}
+.selos .cinco-estrelas{background-position: 15px -78px}
+.selos .resort{background-position: 15px -171px; padding-top: 30px}
+
+#descricao-oferta .textos{width: 415px; float: left}
+#descricao-oferta .textos h2{width: auto}
+#descricao-oferta .vantagens{border:solid 1px #d6dfed; border-radius: 3px; float: left; margin: 0 0 0 44px}
+#descricao-oferta .vantagens p{color:#373737; font-family: 'arial'; font-size: 16px; font-weight: bold; padding: 10px; border-bottom: solid 1px #d6dfed}
+#descricao-oferta .vantagens ul{list-style: none !important}
+#descricao-oferta .vantagens li{color:#373737; font-family: 'arial'; font-size: 13px; padding: 10px 35px 10px 40px; background: url(../img/novo/vantagens.png) no-repeat}
+#descricao-oferta .vantagens li.aereo{background-position: 5px 8px}
+#descricao-oferta .vantagens li.inclusive{background-position: 5px -31px}
+#descricao-oferta .vantagens li.lazer{background-position: 5px -67px}
+#descricao-oferta .vantagens li.premium{background-position: 5px -106px}
+
+.alerta{width: 926px; margin: 0 auto; background: #c6dcff; border:solid 1px #6a79c3; text-align: center; padding: 15px 0; margin-bottom: 10px; font-family: 'arial'; font-size: 19px; font-weight: bold; color:#282d46; position: relative}
+.alerta a{color:#282d46}
+.alerta .fechar{display: block; width: 34px; height: 34px; background: url(../img/novo/bt-fechar.png) no-repeat; position: absolute; right:-10px; top:-10px}
+
+#busca{padding: 0 !important}
+#busca #filtro{width: 215px; float: left; padding: 20px; border-right: solid 1px #b3c5db;}
+#busca #filtro .migalhas {margin-bottom: 40px}
+#busca #filtro .migalhas li{float: left; font-family: 'arial'; font-size: 12px; color: #444a60; margin-right: 5px}
+#busca #filtro .migalhas li:last-child{font-weight: bold}
+
+#busca #filtro > div{margin-bottom: 25px}
+#busca #filtro > div h2{font-family: 'arial'; font-size: 16px; font-weight: bold; color: #282d46; padding-bottom: 10px}
+#busca #filtro label{display: block; font-family: 'arial'; font-size: 12px; color: #282d46; margin-bottom: 10px; cursor:pointer}
+#busca #filtro label input[type="checkbox"]{margin-right: 8px}
+#busca #filtro label span{display: inline-block; float: right; border:solid 1px #434658; padding: 3px 10px; border-radius: 10px}
+
+#busca #filtro .preco {margin-bottom: 20px; width: 100%}
+#busca #filtro .preco input[type=text]{float: left; width: 40px; height: 17px; border:solid 1px #b9b9b9; border-radius: 5px; padding: 10px; outline: none}
+#busca #filtro .preco span{float: left; padding: 15px 10px 0 10px; font-family: 'arial'; font-size: 12px}
+#busca #filtro .preco input[type=submit]{display: block; background: url(../img/novo/bt-busca-filtro.png) no-repeat; height: 40px; width: 40px; text-indent: -10000px; float: right; clear: none; border:none}
+
+#busca .direita{float: right; width: 689px}
+#busca header{padding: 20px; font-family: 'arial'; border-bottom:solid 1px #b3c5db}
+#busca header .encontrados{float: left}
+#busca header .encontrados h2{font-weight: bold; color: #282d46; font-size: 21px}
+#busca header .encontrados h2 span{color: #5392ec}
+#busca header .encontrados p{color: #282d46; padding-top: 5px}
+
+#busca header .ordenar {float: right; width: auto; margin-bottom: 0}
+#busca header .ordenar p{color: #282d46; font-weight: bold; font-size: 13px; padding: 13px}
+#busca header .ordenar select{width: 100px; overflow: hidden}
+#busca header p{padding: 10px 0; font-size: 13px}
+#busca header p a{color: #5392ec}
+
+#busca .resultados article:last-child{border: none}
+#busca .resultados article{border:none; font-family: 'arial'; border-bottom: solid 1px #b3c5db; position: relative; padding: 35px 20px}
+#busca .resultados article img{float: left; border-radius: 3px; margin-right: 15px}
+#busca .resultados article .informacoes{float: left; width: 265px}
+#busca .resultados article .informacoes .tipo span{font-size: 12px; color:#2a2c38; float: left; display: block; padding: 3px 0 3px 25px; margin-right: 10px; line-height: 15px}
+#busca .resultados article .informacoes .diarias{font-size: 12px; color:#2a2c38; float: left; display: block; margin-top: 20px; line-height: 17px}
+#busca .resultados article .informacoes .tipo .aereo{background: url(../img/novo/ico-aereo.png) no-repeat}
+#busca .resultados article .informacoes .tipo .desayuno{background: url(../img/novo/ico-cafe.png) no-repeat}
+#busca .resultados article .precos{float: right; width: 135px; padding-top: 20px}
+#busca .resultados article .precos p{font-weight: bold; font-size: 20px; padding-bottom: 5px}
+#busca .resultados article .precos span{font-size: 11px; color: #353535; display:block; padding: 3px 0}
+#busca .resultados article .precos a{margin: 15px 15px 0 0}
+
+#busca .resultados article .adicionais{position: absolute; left: 0; top: 0; background: url(../img/novo/bg-transparente.png) repeat; width: 649px; height: 83%; padding: 20px; color:#fff}
+#busca .resultados article .adicionais h2{color: #fff; font-weight: bold; padding-bottom: 20px}
+#busca .resultados article .adicionais .vantagens{float: left; width: 404px}
+#busca .resultados article .adicionais .vantagens > div{background: #fff; color:#363636; padding: 15px; border-radius: 5px}
+#busca .resultados article .adicionais .vantagens > div .info{float: left; font-size: 13px}
+#busca .resultados article .adicionais .vantagens > div .info strong{font-weight: bold; font-size: 16px; padding-bottom: 10px; display: inline-block}
+#busca .resultados article .adicionais .vantagens > div .info p{padding-bottom: 3px}
+#busca .resultados article .adicionais .vantagens > div .opcionais{float: right}
+#busca .resultados article .adicionais .vantagens > div .opcionais li{font-size: 13px; padding-bottom: 4px; background: url(../img/novo/icones-opcionais.png) no-repeat left; padding: 4px 0 4px 30px}
+#busca .resultados article .adicionais .vantagens > div .opcionais li.noites{background-position: 0 2px}
+#busca .resultados article .adicionais .vantagens > div .opcionais li.aereo{background-position: 0 -22px}
+#busca .resultados article .adicionais .vantagens > div .opcionais li.inclusos{background-position: 0 -46px}
+#busca .resultados article .adicionais .vantagens > div .opcionais li.lazer{background-position: 0 -70px}
+#busca .resultados article .adicionais .vantagens > div .opcionais li.premium{background-position: 0 -92px}
+#busca .resultados article .adicionais .porcentagem{float: left}
+#busca .resultados article .adicionais .porcentagem p{display: block; float: left; width: 56px; height: 83px; background: url(../img/novo/bg-desconto.png) no-repeat; color:#fff; font-weight: bold; text-align: center; padding-top: 14px; line-height: 14px; margin: 70px 25px 0 25px}
+#busca .resultados article .adicionais .porcentagem p span{color:#fff; font-size: 15px}
+#busca .resultados article .adicionais .porcentagem span{display: block}
+#busca .resultados article .adicionais .precos {margin-top: 15px}
+#busca .resultados article .adicionais .precos span{color:#fff}
+
+#busca .resultados article h3 a{font-weight: bold; text-decoration: none; color:#2a2c38; padding: 20px 0 10px 0; display: block}
+#busca .resultados .descricao{padding: 0 20px 0 0; background: url(../img/novo/bg-descricao-busca.png) bottom repeat-x}
+#busca .resultados .descricao h3{font-weight: bold; font-size: 26px; margin: 40px 0 20px 0; float: left; display: inline-block; width: 330px; color:#282d46}
+#busca .resultados .descricao p{font-size: 14px; color:#282d46; line-height: 18px}
+
+#busca.nao-econtrado{padding: 20px !important; min-height: 300px; font-family: 'arial'}
+#busca.nao-econtrado h2{font-weight: bold; color: #282d46; font-size: 21px;}
+#busca.nao-econtrado h2 a{color: #5392ec; text-decoration: none}
+#busca.nao-econtrado p{color: #282d46;padding-top: 5px; padding-top: 20px; display: block}
+
+
+.paginacao{text-align: center; clear: both; margin: 40px 0}
+.paginacao li{display: inline-block}
+.paginacao li a{padding: 10px 15px; border:solid 1px #b3c5db; border-radius: 3px; text-decoration: none; font-weight: bold; font-family: 'arial'; color:#2a2c38}
+.paginacao li:last-child a:hover, .paginacao li:first-child a:hover{background: #2a2c38; color:#fff; border-radius: 3px; border:solid 1px #2a2c38}
+.paginacao li.ativo a{background: #3b85ec; color:#fff; border-radius: 3px; border:solid 1px #3b85ec}
+
+.reserva, .contato {font-family: arial; color: #282d46;}
+.reserva .termos-politicas, .contato .termos-politicas{padding-top: 0; margin-bottom: 20px}
+.reserva .compra-segura, .contato .compra-segura {width: 376px; margin: 20px auto 0 auto}
+.reserva .compra-segura span, .contato .compra-segura span{padding:14px 11px 5px 30px}
+.reserva .compra-segura span, .reserva .compra-segura p, .contato .compra-segura span, .contato .compra-segura p{font-family: arial;color:#424657}
+.reserva h1, .contato h1 {font-size: 25px !important; margin-bottom: 10px; font-family: 'arial'}
+.reserva h2, .contato h2 {font-size: 18px !important; color:#282d46}
+.reserva p, .contato p {margin: 10px 0; font-size: 13px}
+.reserva .obrigatorio, .reserva a{color: #3e7be6; font-size: 13px}
+
+.contato .box-input textarea{width: 290px !important; resize: none; height: 100px}
+.contato .box-input label{width: 71px !important}
+.contato .box-input.mensagem label{float: left}
+.contato .box-input select{width: 200px}
+.contato input[type=submit]{margin: 18px auto 40px auto}
+
+.contato .left{width: 44% !important; }
+.contato .right{border-left:solid 1px #b3c5db; width: 50% !important; padding-left: 30px}
+.contato .right h2{margin-bottom: 20px}
+.contato .right p{line-height: 20px}
+.contato .right h3, .contato .right a{margin: 20px 0 10px 0; color:#3262dd; font-size: 13px; font-weight: bold; display: block; text-decoration: none}
+.contato .right .clique-aqui{text-decoration: underline; margin-bottom: 50px}
+
+.formulario .left, .formulario .right{ width: 48%; }
+.formulario .box-input {display: block; margin:10px 0; outline: none}
+.formulario .box-input label {font-size: 13px; color: #353535}
+.formulario .box-input label.tipo01 {display: inline-block; width: 120px;}
+.formulario .box-input select.estado-select {width: 230px;}
+.formulario .box-input input[type=text], .formulario .box-input input[type=password] {outline: none;border: 1px solid #c0cad9; border-radius: 3px; padding: 10px 5px;}
+.formulario .box-input input[type=text].tipo01 {width: 217px !important;}
+.formulario .box-input input[type=text].tipo02 {width: 100px !important;}
+.formulario .box-input input[type=text].tipo03 {width: 290px !important;}
+.formulario .box-input input[type=text].tipo04 {width: 235px !important;}
+.formulario textarea {border: 1px solid #c0cad9;border-radius: 3px; padding: 5px;width: 95%; height: 150px;}
+.formulario .form-obrigatorio {color: #3262dd; font-size: 13pt; font-weight: bolder;}
+.formulario .bt-verde {line-height: 0; margin-top: 50px;}
+#account_create{width: auto !important; margin:0}
+
+.cadastro{font-family: 'arial'}
+.cadastro .right{border-left:solid 1px #b3c5db; width: 44% !important; padding-left: 40px}
+.cadastro h2{font-size: 25px !important; color:#282d46 !important; padding-bottom: 20px}
+.cadastro p{color:#282d46; font-size: 13px; line-height: 20px}
+.cadastro p a{color:#3262dd}
+.cadastro p strong{color:#353535; font-weight: bold}
+.cadastro h2 a{color:#3262dd}
+.cadastro .campos-obrigatorios{color:#ff3644; font-size: 12px}
+
+.cadastro .dupla label{width: 75px !important}
+.cadastro .dupla select{width: 80px !important}
+.cadastro .dupla input{width: 110px !important}
+.cadastro .dupla .lado-b{padding-left: 20px}
+.cadastro .dupla .nome{width: 152px !important}
+
+.cadastro label{width: 75px; display: inline-block}
+.cadastro input[type=text]{width: 334px !important; outline: none; margin-right:0 !important}
+ .cadastro input[type=password]{width: 334px; outline: none}
+ 
+.box-input.dupla input{margin:0 !important}
+ 
+.cadastro label span{color:#ff3644}
+.cadastro .termos{width:auto; font-size: 13px; margin: 20px 0 40px 0}
+.cadastro .termos input{margin-right: 15px; outline: none}
+
+.cadastro input[type=submit]{float: left; margin-top: 0;height: 53px; background-color: #52a62f !important;}
+.cadastro .ou{float: left; margin: 0 20px; font-size: 13px; line-height: 50px}
+.cadastro .bt-facebook{float: left}
+
+.cadastro .como-funciona h3{font-size: 18px; color:#282d46; font-weight: bold; margin: 30px 0 40px 0}
+.cadastro .como-funciona > div{background: url(../img/novo/icones-como-funciona.png) no-repeat; padding: 27px 0 27px 80px; font-weight: bold; font-size: 14px; margin-bottom: 15px; color:#282d46}
+.cadastro .como-funciona .oferta{background-position: 0 0}
+.cadastro .como-funciona .amigos{background-position: 0 -73px}
+.cadastro .como-funciona .divertido{background-position: 0 -147px}
+.cadastro .como-funciona .divertido{background-position: 0 -147px}
+.cadastro .link{clear: both; display: inline-block; float: left; width: 100%; margin: 20px 0 30px 0; font-size: 13px; color:#3262dd}
+
+.conteudos p{color:#343434; font-family: 'arial'; font-size: 13px; line-height: 20px}
+.conteudos h1{font-size: 25px !important; padding-bottom: 10px}
+
+.conteudos #imprensa figure{width: 252px; float: left; margin:0 24px}
+.conteudos #imprensa h1{margin-bottom: 0 !important}
+.conteudos #imprensa h2{font-weight: bold; color:#989797; font-size: 17px; border-bottom: solid 2px #e9e9e9; padding:40px 0 5px 0; font-family: 'arial'; clear: both}
+.conteudos #imprensa figure p a{color:#675351; font-size: 12px; font-family: 'times new roman'; text-decoration: none; line-height: 16px; padding: 10px; display: block; background: #f2f2f3; clear: both; float: left; text-align: justify; position: relative}
+.conteudos #imprensa figure p a span{display: block; width: 15px; height: 15px; position: absolute; right: 0; bottom: 0; background: #c1c1c1; text-align: center; color:#fff; font-weight: bold; border-radius: 3px; border:solid 1px #b7b7b7}
+
+.conteudos #faq li{margin-bottom: 10px}
+.conteudos #faq a{font-family: 'arial'; text-decoration: none; font-size: 13px; color: #343434}
+.conteudos #faq a:hover{color:#212435}
+.conteudos #faq li p{padding: 10px; border:solid 1px #b6becc; margin-top: 10px; display: none; margin-bottom: 20px}
+
+.conteudos #como-funciona h1{margin-bottom:30px !important}
+.conteudos #como-funciona div{padding: 15px 0 15px 110px; margin-bottom: 20px; font-family: 'arial'; background: url(../img/novo/icones-medalhas.png) no-repeat left}
+.conteudos #como-funciona div h2{font-size: 13px; font-weight: bold; color:#282d46; padding-bottom: 3px}
+.conteudos #como-funciona .descontos{background-position: 0 0}
+.conteudos #como-funciona .duracao{background-position: 0 -102px}
+.conteudos #como-funciona .ofertas{background-position: 0 -226px}
+.conteudos #como-funciona .compra{background-position: 0 -357px}
+.conteudos #como-funciona .bt-verde{margin: 0 auto; float: none; width: 339px; margin-top: 30px}
+
+.associate {font-family: arial; color: #282d46;}
+.associate h1 {font-size: 30px !important;}
+.associate h3 {color: #3b85ec;}
+.associate p {margin: 10px 0;}
+.associate .obrigatorio {color: #3262dd;}
+.associate .formulario {margin: 20px 0;}
+.associate .formulario .left, .associate .formulario .right{ width: 48%; }
+.associate .formulario .box-input {display: block; margin:20px 0;}
+.associate .formulario .box-input label {font-size: 13pt; color: #353535; font-weight: bolder;}
+.associate .formulario .box-input label.tipo01 {display: inline-block; width: 130px;}
+.associate .formulario .box-input select {width: 292px;}
+.associate .formulario .box-input input[type=text] {border: 1px solid #c0cad9;border-radius: 3px; padding: 10px 5px;}
+.associate .formulario .box-input input[type=text].tipo01 {width: 280px;}
+.associate .formulario textarea {border: 1px solid #c0cad9;border-radius: 3px; padding: 5px;width: 95%; height: 150px; margin-top: 19px;}
+.associate .formulario .form-obrigatorio {color: #3262dd; font-size: 13pt; font-weight: bolder;}
+.associate .formulario .bt-verde {line-height: 0; margin-top: 100px;}
+
+.paginacao li:last-child a, .paginacao li:first-child a{background: #2a2c38; color:#fff; border-radius: 3px; border:solid 1px #2a2c38}
+
+#relacionadas figure{position:relative}
+#relacionadas figure .box-vantagens{display:none}
+#relacionadas figure:hover .box-vantagens{display:block; position:absolute; left:-1px; top:-20px; z-index:1}
+
+#vantagens figure{position:relative}
+#vantagens figure .box-vantagens{display:none}
+#vantagens figure:hover .box-vantagens{display:block; position:absolute; left:-1px; top:-20px; z-index:1}

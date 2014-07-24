@@ -1,0 +1,1 @@
+$("#accountCardsForm").ready(function(){$("#accountCardsForm").submit(function(){if(!1==$("input[name\x3d'oneClickCards']").is(":checked"))return!1})});

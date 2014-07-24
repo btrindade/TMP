@@ -1,0 +1,1 @@
+$(document).ready(function(){$("form.frm-login").validate({rules:{email:{required:!0,email:!0}},messages:{email:{required:"Informe o email",email:"Informe um email válido"}}})});
